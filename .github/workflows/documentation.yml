@@ -36,7 +36,12 @@ jobs:
       - uses: webfactory/ssh-agent@v0.5.0
         with:
           ssh-private-key: ${{ secrets.GH_PAGES_DEPLOY }}
-      - name: Install and Build 🔧
+      - name: 🔑 Setup folder key
+        run: |
+          touch .env
+          echo WIKI_BASE_URL='/wiki/${{ secrets.GH_PAGES_DEPLOY }}/' >> .env
+          cat .env
+      - name: 🔧 Install and Build
         env:
           USE_SSH: true
           GIT_USER: git
@@ -51,7 +56,7 @@ jobs:
           yarn i
           fi
           yarn build --out-dir build/${{ secrets.PASSWORD }}
-      - name: Deploy 🚀
+      - name: 🚀 Deploy the Documents
         uses: JamesIves/github-pages-deploy-action@4.1.4
         env:
           USE_SSH: true
