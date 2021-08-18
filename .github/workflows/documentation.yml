@@ -39,7 +39,7 @@ jobs:
       - name: 🔑 Setup folder key
         run: |
           touch .env
-          echo WIKI_BASE_URL='/wiki/35e57b44fa257827816e8bdcd113f1152cf4f203/' >> .env
+          echo WIKI_BASE_URL='/wiki/${{ secrets.PASSWORD }}/' >> .env
           cat .env
       - name: 🔧 Install and Build
         env:
