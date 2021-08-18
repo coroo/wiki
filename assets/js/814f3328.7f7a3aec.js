@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcoroo_github_io=self.webpackChunkcoroo_github_io||[]).push([[535],{6353:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome","permalink":"/wiki/blog/welcome"},{"title":"Hello","permalink":"/wiki/blog/hello-world"},{"title":"Hola","permalink":"/wiki/blog/hola"}]}')}}]);

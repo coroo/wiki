@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcoroo_github_io=self.webpackChunkcoroo_github_io||[]).push([[634],{367:function(o){o.exports=JSON.parse('{"allTagsPath":"/wiki/blog/tags","slug":"facebook","name":"facebook","count":1,"permalink":"/wiki/blog/tags/facebook"}')}}]);

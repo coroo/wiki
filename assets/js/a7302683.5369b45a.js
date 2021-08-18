@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcoroo_github_io=self.webpackChunkcoroo_github_io||[]).push([[700],{124:function(o){o.exports=JSON.parse('{"allTagsPath":"/wiki/blog/tags","slug":"hello","name":"hello","count":2,"permalink":"/wiki/blog/tags/hello"}')}}]);

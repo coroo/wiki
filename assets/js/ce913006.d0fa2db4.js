@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcoroo_github_io=self.webpackChunkcoroo_github_io||[]).push([[664],{9101:function(u){u.exports=JSON.parse('{"allTagsPath":"/wiki/blog/tags","slug":"docusaurus","name":"docusaurus","count":3,"permalink":"/wiki/blog/tags/docusaurus"}')}}]);
