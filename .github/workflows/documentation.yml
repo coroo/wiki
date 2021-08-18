@@ -24,7 +24,7 @@ jobs:
           else
           npm i
           fi
-          npm run build
+          yarn build --out-dir build/nested
   gh-release:
     if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
