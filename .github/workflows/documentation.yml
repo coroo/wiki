@@ -61,8 +61,8 @@ jobs:
           USE_SSH: true
           GIT_USER: git
         run: |
-          cp tmp/index.html build/index.html
-          cp tmp/style.css build/style.css
+          cp lockscreen/index.html build/index.html
+          cp lockscreen/style.css build/style.css
       - name: 🚀 Deploy the Documents
         uses: JamesIves/github-pages-deploy-action@4.1.4
         env:
