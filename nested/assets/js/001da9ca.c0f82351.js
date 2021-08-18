@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcoroo_github_io=self.webpackChunkcoroo_github_io||[]).push([[218],{2099:function(o){o.exports=JSON.parse('{"allTagsPath":"/wiki/nested/blog/tags","slug":"hola","name":"hola","count":1,"permalink":"/wiki/nested/blog/tags/hola"}')}}]);
