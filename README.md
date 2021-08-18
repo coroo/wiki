@@ -39,7 +39,8 @@ More Details:
 2. add ssh key to repo's "Deploy keys" setting
    `cat .ssh/id_rsa.pub`
    Copy Paste to **Settings -> Deploy Keys**
+   *Dont forget to checklist Write Access
 3. Setup the git ssh key on the client machine
    Git normally use the ssh key found in `.ssh/id_rsa` under user's home folder, so first you need to find out the home directory of the user. 
    Copy Paste to **Settings -> Secret**
-4. Git normally use the ssh key found in .ssh/id_rsa under user's home folder, so first you need to find out the home directory of the user.
+4. Finish
