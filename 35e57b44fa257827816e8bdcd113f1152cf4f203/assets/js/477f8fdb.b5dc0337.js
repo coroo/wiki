@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkcoroo_github_io=self.webpackChunkcoroo_github_io||[]).push([[400],{4890:function(s){s.exports=JSON.parse('{"allTagsPath":"/wiki/nested/blog/tags","slug":"docusaurus","name":"docusaurus","count":3,"permalink":"/wiki/nested/blog/tags/docusaurus"}')}}]);

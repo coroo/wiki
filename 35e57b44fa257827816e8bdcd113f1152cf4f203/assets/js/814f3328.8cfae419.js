@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkcoroo_github_io=self.webpackChunkcoroo_github_io||[]).push([[535],{6353:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome","permalink":"/wiki/nested/blog/welcome"},{"title":"Hello","permalink":"/wiki/nested/blog/hello-world"},{"title":"Hola","permalink":"/wiki/nested/blog/hola"}]}')}}]);

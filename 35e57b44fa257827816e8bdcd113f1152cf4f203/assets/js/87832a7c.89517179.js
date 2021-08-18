@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkcoroo_github_io=self.webpackChunkcoroo_github_io||[]).push([[716],{6933:function(o){o.exports=JSON.parse('{"allTagsPath":"/wiki/nested/blog/tags","slug":"facebook","name":"facebook","count":1,"permalink":"/wiki/nested/blog/tags/facebook"}')}}]);
