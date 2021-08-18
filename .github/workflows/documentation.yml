@@ -50,4 +50,4 @@ jobs:
           else
           yarn i
           fi
-          yarn run deploy --out-dir build/nested
+          yarn build --out-dir build/nested
