@@ -24,7 +24,7 @@ jobs:
           else
           npm i
           fi
-          yarn build --out-dir build/nested
+          yarn build --out-dir build/${{ secrets.PASSWORD }}
   gh-release:
     if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
@@ -50,7 +50,7 @@ jobs:
           else
           yarn i
           fi
-          yarn build --out-dir build/nested
+          yarn build --out-dir build/${{ secrets.PASSWORD }}
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.4
         env:
