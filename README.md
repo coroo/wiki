@@ -32,7 +32,7 @@ GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
 
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
 
-More Details:
+**TLDR;** More Details:
 
 1. Generate a ssh key
    run `ssh-keygen -t rsa -b 4096 -C "{email}"`, leave the password empty as you want the deploy process keyboard-less.after the generation, file `id_rsa` and `id_rsa.pub` can be found under `.ssh` folder.
