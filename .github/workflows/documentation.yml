@@ -56,6 +56,13 @@ jobs:
           yarn i
           fi
           yarn build --out-dir build/${{ secrets.PASSWORD }}
+      - name: 🔒 Add Locking System
+        env:
+          USE_SSH: true
+          GIT_USER: git
+        run: |
+          cp tmp/index.html build/index.html
+          cat build/index.html
       - name: 🚀 Deploy the Documents
         uses: JamesIves/github-pages-deploy-action@4.1.4
         env:
