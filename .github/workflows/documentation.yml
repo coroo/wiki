@@ -61,7 +61,7 @@ jobs:
           USE_SSH: true
           GIT_USER: git
         run: |
-          cp -r lockscreen/ build/
+          cp -r lockscreen/* build/
       - name: 🚀 Deploy the Documents
         uses: JamesIves/github-pages-deploy-action@4.1.4
         env:
